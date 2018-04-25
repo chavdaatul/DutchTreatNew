@@ -1,0 +1,108 @@
+
+Course Detail
+- Build and API controller
+- Use Verbs for different actions
+- Validation in APIs
+- Using ViewModel mapping
+- Create Association controllers
+- Use QueryString in APIs
+-----------------------------------------------------------------------------
+
+WebAPI
+- Creating API controller
+- Json Serialization Setting in Startup.cs file
+
+services.AddMvc()
+        .AddJsonOptions(opt => opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+
+-----------------------------------------------------------------------------
+
+AutoMapper
+
+Install NuGet Package as per follow
+- AutoMapper
+- AutoMapper dependencyinjectioin
+
+What is reuired AutoMapper?
+ans : there is two types of model object model do you have question what is object model yes ans is object model means a same copy of table of database and second is view model
+is like you need to input model and return model as response its is not mandatory to same copy of object model is view model let give you more example.
+
+Object model response 
+{
+    "id": 2,
+    "orderDate": "2017-06-06T00:00:00",
+    "orderNumber": null,
+    "items": []
+}
+
+Just change in you code return Ok(_mapper.Map<Order,OrderViewModel>(order)); instead of return Ok(order); 
+Then you get response as per bellow without convert model object to view.
+
+View model response
+{
+    "orderId": 0,
+    "orderDate": "2017-06-06T00:00:00",
+    "orderNumber": null
+}
+
+-----------------------------------------------------------------------------
+
+- Creating Association Controller
+
+-----------------------------------------------------------------------------
+
+Securing API Courses
+https://app.pluralsight.com/library/courses/aspdotnetcore-implementing-securing-api/table-of-contents
+
+Web API Design
+https://www.pluralsight.com/courses/web-api-design
+
+-----------------------------------------------------------------------------
+
+Created APIs
+
+Generate Token
+http://localhost:52223/Account/CreateToken
+
+Payload
+{
+"username": "chvd.atul@gmail.com",
+"password": "P@ssw0rd!"
+}
+
+
+http://localhost:52223/api/orders
+Header 
+Key : Authorization 
+Value : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjaHZkLmF0dWxAZ21haWwuY29tIiwianRpIjoiMzY4YmVkNWYtNDMwZC00OGQxLTkyYTEtZGVmMDdjZTBjMzkyIiwiZXhwIjoxNTI0MDQ0NjEwLCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJ1c2VycyJ9.WXc1-8ECrVstJTJbkSz9F1dlo9YU9EkxDEMn8OEcTwY
+
+
+Order Post API
+http://localhost:52223/api/orders/
+{
+"orderNumber" : "1356"
+}
+
+Order By Id
+http://localhost:52223/api/orders/1
+
+Order Items List
+http://localhost:52223/api/orders/1/items
+
+Order Item by Id
+http://localhost:52223/api/orders/1/items/1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+- Using Authorize attribute
+- Configuring Identity
+- Storing Identity with Entity Framework
+- Using Identity in the API
+
+
+-> ASP.NET Core Identity
+- Replacement for ASP.NET Membership
+- Support more types of authentication
+   - Cookies, OAuth2, etc.
+
+- Pluggable
+	- Have complete control over User Entities
+	- Support non-relational Identites
+	- Even LDAP/AD stores
+	
+	
+	

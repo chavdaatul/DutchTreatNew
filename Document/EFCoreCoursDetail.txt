@@ -1,0 +1,61 @@
+
+Creating Entities
+Using DbContext
+Seeding and creating the Database
+Using the Repository Pattern
+Logging
+
+Entity Framework Core
+- Complete re-write
+- Removes the requirement
+- Completely open source
+- EF6 will work if you need maturity
+  - But must stick with .NET 4.x
+
+
+Clone Entities from Git URL
+https://github.com/psauthor/buildingASPNETCore2
+
+Step of DbContext setup
+
+1) 
+Create DBcontext in Data/Entities
+Ex. DutchContext.cs
+
+2)
+Made changes in Startup File
+*ConfigureServices()
+add service in above function bellow is example
+2.1)
+public Startup(IConfiguration config)
+    {
+      this._config = config;
+    }
+2.2)
+services.AddDbContext<DutchContext>(cfg=> {
+        cfg.UseSqlServer(_config.GetConnectionString("DutchConnectionString"));
+      });
+	  
+3)
+Create Config.json file
+
+
+Use Command of CMD
+dotnet ef database update
+dotnet ef migrations add InitialDb 
+
+
+
+Create Seed Class for enter default data in table
+
+
+Loggin Error
+CMD command
+set ASPNETCORE_ENVIRONMENT=Developer
+dotnet run
+
+
+
+
+Read more about EF URL
+https://app.pluralsight.com/library/courses/entity-framework-core-getting-started/table-of-contents

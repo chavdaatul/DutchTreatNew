@@ -1,0 +1,44 @@
+Installing Angular
+Using the Angular-CLI
+Integrating with ASP.NET Core
+Using External Templates
+Creating Components
+
+What is AngularJS?
+
+Successor to AngularJS
+-(e.g. Angular 1.x)
+Open Source Javascript Framework
+Built by Google for its own projects
+Supplies basic app services
+Rich client-side applications
+- (e.g. Signle Page Applications)
+Leverages TypeScript (optionally)
+- Google built Angular with TypeScript
+
+npm install globally using command with
+npm install -g npm
+
+Install CLI Command
+npm install -g @angular/cli
+
+Application creaet Command
+ng new dutch-app --minimal --dry-run
+
+Application creaet Command
+ng new dutch-app --minimal
+
+Code generate command
+ng build
+
+Your First Project in Asp.net of AngularJS
+CMD fire command 
+- cd and your destinatoin of ASP.net Project
+Fire first this command
+ng new dutch-app --minimal --dry-run
+after create successfully fire bellow command
+ng new dutch-app --minimal
+
+
+
+

@@ -1,0 +1,2 @@
+TypeScript Fundamentals
+pluralsight.com/courses/typescript

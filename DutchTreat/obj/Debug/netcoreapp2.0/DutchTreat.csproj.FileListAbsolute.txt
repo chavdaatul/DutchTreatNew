@@ -1,0 +1,11 @@
+E:\Atul\RND\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.0\DutchTreat.deps.json
+E:\Atul\RND\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.0\DutchTreat.runtimeconfig.json
+E:\Atul\RND\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.0\DutchTreat.runtimeconfig.dev.json
+E:\Atul\RND\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.0\DutchTreat.dll
+E:\Atul\RND\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.0\DutchTreat.pdb
+E:\Atul\RND\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchTreat.csprojResolveAssemblyReference.cache
+E:\Atul\RND\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchTreat.csproj.CoreCompileInputs.cache
+E:\Atul\RND\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchTreat.AssemblyInfoInputs.cache
+E:\Atul\RND\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchTreat.AssemblyInfo.cs
+E:\Atul\RND\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchTreat.dll
+E:\Atul\RND\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchTreat.pdb
